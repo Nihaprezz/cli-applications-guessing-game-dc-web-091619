@@ -4,6 +4,6 @@ def run_guessing_game
   user_input = gets.chomp
   random_number = 1 + rand(6)
   
-  user_input
-  random_number
+  puts "user input is #{user_input}"
+  puts "random number is #{random_number}"
 end
