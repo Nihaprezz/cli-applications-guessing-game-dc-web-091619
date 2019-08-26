@@ -1,8 +1,7 @@
 # Code your solution here!
 
 def run_guessing_game
-  
-  puts "Enter your guess?"
+  puts "/Guess a number betwen 1 and 6."
   random_number = rand(1..6)
   user_input = gets.chomp.to_s
   
