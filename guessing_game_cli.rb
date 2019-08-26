@@ -5,4 +5,6 @@ def run_guessing_game
   
   puts "Enter your guess!"
   user_input = gets.chomp
+  
+  puts "You entered #{user_input}"
 end
