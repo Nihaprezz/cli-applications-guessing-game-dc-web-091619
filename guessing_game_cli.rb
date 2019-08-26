@@ -7,4 +7,5 @@ def run_guessing_game
   user_input = gets.chomp
   
   puts "You entered #{user_input}"
+  puts "The random number is #{random_number}"
 end
