@@ -4,7 +4,7 @@ def run_guessing_game
   
   puts "Enter your guess?"
   random_number = rand(1..6)
-  user_input = gets.chomp
+  user_input = gets.chomp.to_s
   
   if user_input == 'exit'
     print "Goodbye!"
