@@ -6,6 +6,5 @@ def run_guessing_game
   random_number = random_number.to_s
   
   
-  puts "user input is #{user_input.class}"
-  puts "random number is #{random_number.class}"
+
 end
