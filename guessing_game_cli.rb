@@ -5,6 +5,8 @@ def run_guessing_game
   random_number = 1 + rand(6)
   random_number = random_number.to_s
   
-  
+  if user_input == 'exit'
+    puts "Goodbye!"
+  end
 
 end
